@@ -1,3 +1,16 @@
+# TO-DO
+
+my_dmi api er lavet på baggrund af etl_dmi database
+etl_dmi er en process der henter data fra DMI Open Data API og indlæser vejrdata i en PostgreSQL database. 
+Det er denne database my_dmi udstiller data fra.
+
+Projekt to-do:
+- Tilføj docker database script 
+- Evt. Docker compose der starter etl_dmi, database og my_dmi
+
+
+### notes
+
 python -m venv .venv
 
 .venv\Scripts\Activate.ps1
@@ -17,11 +30,3 @@ OpenAPI (Swagger)
 http://127.0.0.1:8000/docs
 
 
-# TO-DO
-
-my_dmi api er lave på baggrund af etl_dmi database
-etl_dmi er en process der henter data fra DMI OPEN API og indlæser i PostgreSQL database. Det er denne database my_dmi udstiller data fra.
-
-Projekt to-do:
-- Tilføj docker database script 
-- Evt. Docker compose der starter etl_dmi, database og my_dmi
